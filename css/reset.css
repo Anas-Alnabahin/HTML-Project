@@ -1,0 +1,57 @@
+/* Reset some common default styles */
+body,
+div,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+form,
+fieldset,
+input,
+button,
+blockquote,
+figure,
+hr,
+dl,
+dd,
+dt {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Correct the font size and margin on 'h1' elements within 'section' and 'article' contexts */
+section h1,
+article h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Normalize some elements to improve cross-browser consistency */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add a default border-box sizing to all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Add some basic styles to improve consistency and readability */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
