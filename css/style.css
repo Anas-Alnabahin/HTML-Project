@@ -2,8 +2,13 @@ body {
   background-color: rgb(5, 31, 103);
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 header {
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 0 1.5rem;
   color: white;
   background-color: rgb(5, 31, 103);
   width: 100%;
@@ -119,8 +124,6 @@ input {
 }
 
 .header-div img {
-  max-width: 100%;
-  height: auto;
   width: 60%;
   border: 1px solid white;
   border-top-left-radius: 16px;
@@ -128,4 +131,54 @@ input {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.section-one {
+  display: flex;
+  background-color: white;
+  aspect-ratio: 2.5 / 1;
+}
+
+.sec1-div1,
+.sec1-div2 {
+  width: 50%;
+}
+
+.sec1-div1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-one img {
+  height: 70%;
+  margin-top: 5rem;
+}
+
+.sec1-div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5rem;
+}
+
+.sec1-div2 .big-text {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.sec1-div2 .small-text {
+  font-weight: lighter;
+  opacity: 0.9;
+}
+
+.sec1-div2 button {
+  margin-top: 2rem;
+  width: 8.5rem;
+  height: 2.5rem;
+  border-radius: 5px;
+}
+
+.sec1-div2 button:hover {
+  border: 0.5px solid rgb(247, 126, 12);
 }
